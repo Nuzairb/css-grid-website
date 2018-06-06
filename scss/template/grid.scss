@@ -1,5 +1,16 @@
 .grid-wrapper {
+    display: grid;
     grid-template-columns: repeat(12, 100px);
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
     grid-column-gap: 30px;
+}
+
+.masthead,
+.hero,
+.features,
+.callout,
+#blog,
+#footer {
+    grid-column: 1 / -1;
 }
