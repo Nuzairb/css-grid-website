@@ -1,6 +1,6 @@
 .masthead {
     background-color: #333;
-    color: $white;
+    color: #fff;
 }
 
 .masthead-inner {
@@ -13,60 +13,56 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        padding: .5rem 1rem;
+        padding: 0.5rem 1rem;
     }
 }
 
-.site-title {
-    h1 {
-        margin: 0;
-    }
+.site-title h1 {
+    margin: 0;
 }
 
-.hor-menu {
+.menu {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
-    li {
-        margin: .5rem;
-        a {
-            color: $white;
-            text-decoration: none;
-            &:hover {
-                color: rgba($white, 0.8);
-            }
+    padding: 1rem 0;
+    a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            color: rgba(255, 255, 255, 0.8);
         }
+    }
+    li {
+        margin: 0 0.5rem;
     }
 }
 
 .hero {
-    background-image: url(https://picsum.photos/5760/3840?image=1067);
+    background-image: url(https://unsplash.it/2000/1500?image=1067);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
     display: flex;
-    // justify-content: center;
     align-items: center;
-}
-
-.hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://unsplash.it/2000/1500?image=1067);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    .hero-inner {
-        max-width: 80vw;
-        margin: auto;
-        padding-left: 2rem;
-        h2 {
-            font-size: 2.5rem;
-            text-align: left;
-            color: $white;
-            line-height: 1.2;
-        }
+}
+
+.hero-inner {
+    max-width: 80vw;
+    margin: auto;
+    padding-left: 2rem;
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        color: #fff;
+        line-height: 1.2;
     }
 }
 
@@ -74,7 +70,6 @@
     .hero-inner {
         max-width: 50vw;
         margin: 0;
-        padding: 0;
         h2 {
             text-align: left;
         }
