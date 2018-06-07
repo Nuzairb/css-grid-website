@@ -1,0 +1,17 @@
+.callout {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://unsplash.it/1500?image=1019);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $white;
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .callout-inner {
+        text-align: center;
+        h3 {
+            font-size: 2rem;
+        }
+    }
+}
